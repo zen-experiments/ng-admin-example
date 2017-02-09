@@ -2,6 +2,12 @@
   "name": "ng-admin-example",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon --harmony app/",
+    "build": "webdriver-manager update",
+    "postbuild": "webdriver-manager start",
+    "test": "protractor tests/conf.js --params.--harmony"
+  },
   "repository": {
     "url": "https://github.com/zen-experiments/ng-admin-example.git",
     "type": "git"
@@ -9,6 +15,13 @@
   "author": "Dmitry Nutels <dnutels@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ng-admin": "^1.0.0"
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "express": "^4.14.1",
+    "mocha": "^3.2.0",
+    "morgan": "^1.8.0",
+    "ng-admin": "^1.0.0",
+    "nodemon": "^1.11.0",
+    "protractor": "^5.1.1"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "watch": ["app/"],
+  "ignore": ["tests/spec.js"],
+  "ext": "js json html"
+}
