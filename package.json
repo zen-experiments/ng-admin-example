@@ -1,0 +1,14 @@
+{
+  "name": "ng-admin-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/zen-experiments/ng-admin-example.git",
+    "type": "git"
+  },
+  "author": "Dmitry Nutels <dnutels@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ng-admin": "^1.0.0"
+  }
+}
